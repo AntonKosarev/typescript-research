@@ -45,8 +45,3 @@ function sendRequest(res: request, success: boolean): respondSuccess | respondFa
     }
   };
 }
-
-
-
-console.log('success: ', sendRequest(request, true));
-console.log('failed: ', sendRequest(request, false));

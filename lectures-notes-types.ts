@@ -161,7 +161,7 @@ let rf: resF = {
 // 2й способ
 function rsToRf(rs: resS): resF {
   return {
-    databaseId: rs.databaseId;
+    databaseId: rs.databaseId,
     errorMessage: "Недостаточно средств",
     errorCode: 4
   }
@@ -181,15 +181,3 @@ function setSum(x: resS | resF) {
     throw new Error('x is not resS')
   }
 }
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
-/* 28)  */
